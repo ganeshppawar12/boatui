@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Metrophobic", sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sellHeader {
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EFF4F7;
+    padding: 10px;
+   
+}
+.sellHeader p {
+    /* padding: 12px; */
+    text-align: center;
+    line-height: normal;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Metrophobic", sans-serif;
+}
+nav{
+    padding: 8px 40px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #fff;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.7;
+  
+
+}
+.header-left a {
+    flex: 0.3 1 0;
+}
+.header-left a img{
+    width: 80px;
+    height: 61px;
+    
+}
+.categorys{
+    display: flex;
+    list-style: none;
+   align-items: center;
+    font-size: 16px;
+    gap: 2rem;
+    font-weight: 500;
+}
+.categorys li a i{
+    font-size: 12px;
+}
+.categorys li:hover{
+    font-weight: 900;
+    
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.right-header img{
+    width: 25px;
+}
+
+.searchbar{
+    background: #F4F5F7;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.searchbar img{
+    width: 18px;
+    margin-right: 5px;
+}
+.searchbar input{
+    outline: none;
+    border: none;
+    background: #F4F5F7;
+}
+.cart i {
+    font-size: 20px;
+}
+
+.banners{
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    margin: 0;
+}
+.banners img{
+    width: 100vw;
+}
+.service-section {
+    background: #F6FAFF;
+    padding: 8px 40px;
+}
+.service-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.service-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.service-name img{
+    width: 3.2rem;
+}
+.service-name p{
+    font-size: 12px;
+}
+.Fastive-sell{
+    padding: 10px 40px;
+    margin-top: 15px;
+}
+.festive-sell-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.festive-sell-header a{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.festive-sell-con img{
+    border-radius: 10px;
+    width: 100%;
+}
